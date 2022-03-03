@@ -1,4 +1,4 @@
-# react-micro-frontends
+# 🧩 react-micro-frontends
 
 Zero-dependency, fast and optimized micro frontend framework for React applications.
 
@@ -50,18 +50,6 @@ function App() {
     </div>
   )
 }
-```
-
-Use `useMicroFrontend` hook:
-
-```js
-const [App1] = useMicroFrontend('<url>')
-```
-
-Use your Micro Frontend:
-
-```jsx
-<App1 />
 ```
 
 # Examples
