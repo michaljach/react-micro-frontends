@@ -42,6 +42,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.2",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "lerna": "^4.0.0",
     "prettier": "^2.5.1",
     "rollup": "^2.69.0",
     "rollup-plugin-peer-deps-external": "^2.2.4"

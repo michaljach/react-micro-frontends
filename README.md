@@ -17,7 +17,7 @@ Zero-dependency, fast and optimized micro frontend framework for React applicati
 Simply generate new app with:
 
 ```bash
-npx create-react-microfrontend app1
+npx create-react-mf app1
 ```
 
 Serve locally using:
