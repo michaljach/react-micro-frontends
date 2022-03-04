@@ -1,9 +1,13 @@
 {
   "name": "react-micro-frontends",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Microfrontend framework",
   "main": "dist/index_cjs.js",
   "module": "dist/index_esm.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint ./src/**/* --ext .js,.jsx,.ts,.tsx"

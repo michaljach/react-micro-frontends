@@ -20,6 +20,8 @@ Simply generate new app with:
 npx create-react-mf app1
 ```
 
+This will create new React application in specified directory. Read about available commands in [Micro Frontend App section]()
+
 Serve locally using:
 
 ```bash
