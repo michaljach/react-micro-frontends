@@ -2,11 +2,16 @@
   "name": "create-react-mf",
   "version": "0.1.3",
   "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/types/index.d.ts",
   "bin": {
-    "create-react-mf": "index.js"
+    "create-react-mf": "dist/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,13 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "^10.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "rollup": "^2.69.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
   }
 }

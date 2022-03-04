@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 
-const path = require('path')
-const fs = require('fs')
-const fse = require('fs-extra')
-const { execSync } = require('child_process')
+import path from 'path'
+import fs from 'fs'
+import fse from 'fs-extra'
+import { execSync } from 'child_process'
 
 const sourceDir = path.join(__dirname, './boilerplates/typescript/')
 const args = process.argv.slice(2, process.argv.length)
