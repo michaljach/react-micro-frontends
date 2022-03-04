@@ -18,12 +18,13 @@ export default [
     ],
     plugins: [
       copy({
-        targets: [{ src: 'src/boilerplates/**/*', dest: 'dist/boilerplates' }]
+        targets: [{ src: 'src/.boilerplates/**/*', dest: 'dist/.boilerplates' }]
       }),
       shebang(),
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json' })
-    ]
+    ],
+    external: ['fs-extra']
   }
 ]

@@ -4,9 +4,16 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "extends": ["airbnb", "prettier", "plugin:jsx-a11y/recommended"],
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:jsx-a11y/recommended"
+  ],
   "plugins": ["prettier"],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
+    "import/no-extraneous-dependencies": ["error", { "peerDependencies": true }],
+    "import/no-unresolved": ["error", { "ignore": ["^react$"] }]
   }
 }

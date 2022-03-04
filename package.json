@@ -1,7 +1,30 @@
 {
-  "name": "root",
+  "name": "react-micro-frontends",
   "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "lerna run build --parallel",
+    "lint": "lerna run lint --parallel"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.39",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.2",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "lerna": "^4.0.0",
+    "rollup": "^2.69.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-preserve-shebang": "^1.0.1"
   }
 }
