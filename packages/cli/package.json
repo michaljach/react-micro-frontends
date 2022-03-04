@@ -1,9 +1,9 @@
 {
   "name": "create-react-mf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "bin": {
-    "create-react-mf": "bin/index.js"
+    "create-react-mf": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,8 @@
     "url": "git+https://github.com/michaljach/react-micro-frontends.git"
   },
   "author": "Michael Jach",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.1"
+  }
 }
