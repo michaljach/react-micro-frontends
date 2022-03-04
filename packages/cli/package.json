@@ -1,6 +1,6 @@
 {
   "name": "create-react-mf",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "",
   "bin": {
     "create-react-mf": "index.js"
