@@ -1,10 +1,10 @@
 {
   "name": "react-micro-frontends",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "lerna run build --parallel",
-    "lint": "lerna run lint --parallel"
+    "lint": "lerna run lint --parallel",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.2",
