@@ -21,6 +21,7 @@
   "author": "Michael Jach",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^10.0.1"
+    "fs-extra": "^10.0.1",
+    "yargs": "^17.3.1"
   }
 }

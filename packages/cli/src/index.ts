@@ -4,12 +4,27 @@
 import path from 'path'
 import fs from 'fs'
 import fse from 'fs-extra'
+import yargs from 'yargs'
 import { execSync } from 'child_process'
 
-const sourceDir = path.join(__dirname, './.boilerplates/typescript/')
-const args = process.argv.slice(2, process.argv.length)
+const { argv } = yargs
+  .command('[directory]', 'Target directory when App will be created')
+  .option('template', {
+    alias: 't',
+    description: 'Template',
+    type: 'string',
+    demandOption: true,
+    default: 'javascript'
+  })
+  .demandCommand()
+  .help()
+  .alias('help', 'h')
 
-const destDir = args[0]
+const destDir = argv._[0]
+const { template } = argv
+
+const sourceDir = path.join(__dirname, `./.templates/${template}/`)
+
 console.log('Creating React Micro Frontend...')
 
 if (!fs.existsSync(destDir)) {
