@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { ReactElement, useEffect, useState } from 'react'
 
 declare global {
   // eslint-disable-next-line
   interface Window {
-    React: any
-    MfApp: any
+    React: unknown
+    MfApp: ReactElement
   }
 }
 

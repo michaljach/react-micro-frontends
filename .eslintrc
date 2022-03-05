@@ -10,6 +10,11 @@
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
+  "settings": {
+    "react": {
+      "version": "17"
+    }
+  },
   "plugins": ["prettier"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
