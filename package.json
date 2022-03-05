@@ -25,6 +25,7 @@
     "rollup": "^2.69.1",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-preserve-shebang": "^1.0.1"
+    "rollup-plugin-preserve-shebang": "^1.0.1",
+    "typescript": "^4.6.2"
   }
 }
