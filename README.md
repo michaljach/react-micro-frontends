@@ -1,4 +1,4 @@
-# 🧩 react-micro-frontends
+# 🧩 react-micro-frontends [![Build](https://github.com/michaljach/react-micro-frontends/actions/workflows/nodejs.yml/badge.svg?branch=main)](https://github.com/michaljach/react-micro-frontends/actions/workflows/nodejs.yml)
 
 Zero-dependency, fast and optimized micro frontend framework for React applications.
 
